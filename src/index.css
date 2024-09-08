@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 30px;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+
+}
+
+/* Row and Column Layout */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.col {
+  flex: 0 0 72%;
+  max-width: 72%;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #e9ecef;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.table th:hover {
+  background-color: #0056b3;
+}
+
+.table td {
+  padding: 15px;
+  vertical-align: middle;
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+.table tr:hover td {
+  background-color: #f1f1f1;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 10px 16px;
+  color: #007bff;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* List Group Styles */
+.list-group {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.list-group-item {
+  padding: 15px 20px;
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.list-group-item.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+
+/* MoviesTable.css */
+
+.heart-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+.heart-icon:active {
+  transform: scale(1.1); /* Slightly shrink on click */
+
+}
+
+.liked {
+  color: rgb(255, 0, 0); /* Color when liked */
+  
+}
+.heart-icon-o {
+  color: rgb(255, 0, 0); /* Color when liked */
+  
+}
+
+.heart-icon:not(.liked) {
+  color: rgb(255, 0, 0); /* Default color when not liked */
+}
