@@ -1,11 +1,3 @@
-
-[![React Version](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
-[![Node.js Version](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
-
-## Overview
-
-A brief description of your project, its purpose, and what it does.
-
 ## Installation Guide
 
 Follow these steps to set up the project on your local machine.
