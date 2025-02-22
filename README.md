@@ -1,5 +1,3 @@
-
-![React-App 1](https://github.com/user-attachments/assets/e5511327-f7e4-4452-b3dc-e350c9250cff)
 ## Installation Guide
 
 Follow these steps to set up the project on your local machine.
